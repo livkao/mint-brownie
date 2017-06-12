@@ -5,4 +5,16 @@
 		padding: 4.5rem 0;	
 	}
 	
+
+	&--blue {
+		background-color: $mainBlue;
+
+		h3 {
+			color: white;
+		}
+		
+		p {
+			color: white;
+		}
+	}
 }

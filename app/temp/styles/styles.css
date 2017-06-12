@@ -590,16 +590,26 @@ a {
 
 .page-section {
 	padding-left: 1.2rem 0;
-	
 }
 
 @media (min-width: 880px) {
 
 .page-section {
 		padding: 4.5rem 0
-	
 }
 	}
+
+.page-section--blue {
+		background-color: #2f5572;
+	}
+
+.page-section--blue h3 {
+			color: white;
+		}
+
+.page-section--blue p {
+			color: white;
+		}
 
 .headline {
 	font-size: 1.9rem;
@@ -665,8 +675,16 @@ a {
 		margin-right: -65px;
 	}
 
+.row--gutters-large {
+		margin-right: -100px;
+	}
+
 .row--gutters > div {
 		padding-right: 65px;
+	}
+
+.row--gutters-large > div {
+		padding-right: 100px;
 	}
 
 .row__b-margin-until-medium {
@@ -688,6 +706,11 @@ a {
 			width: 37%;
 		}
 
+		.row__medium-6 {
+			float: left;
+			width: 50%;
+		}
+
 		.row__medium-8 {
 			float: right;
 			width: 66.66%
@@ -699,8 +722,9 @@ a {
 	}
 
 .generic-content-container p {
+		font-weight: 300;
 		line-height: 1.65;
-		margin: 1.8rem 0;
+		margin: 0 0 1.8rem 0;
 
 	}
 
@@ -714,4 +738,34 @@ a {
 
 .generic-content-container p a{
 		font-weight: 700;
+	}
+
+.section-title {
+	font-size: 3.75rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.section-title strong {
+		font-weight: 500;
+	}
+
+.section-title__icon {
+		margin-right: .5rem;
+	}
+
+.feature-item {
+	
+	padding-left: 94px;
+}
+
+.feature-item__icon {
+		position: absolute;
+		left: 0;
+	}
+
+.feature-item__title {
+		font-size: 1.875rem;
+		font-weight: 300;
+		margin-bottom: .8rem;
 	}
