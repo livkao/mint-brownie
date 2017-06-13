@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-var gulp = require('gulp');
-=======
 var gulp = require('gulp'),
 svgSprite = require('gulp-svg-sprite'),
 rename = require('gulp-rename'),
@@ -45,4 +42,3 @@ gulp.task('endClean', ['copySpriteGraphic', 'copySpriteCSS'],function(){
 });
 
 gulp.task('icons', ['beginClean', 'createSprite', 'copySpriteGraphic', 'copySpriteCSS', 'endClean']);
->>>>>>> gulp-sprite
